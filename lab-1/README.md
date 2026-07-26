@@ -9,7 +9,7 @@ The same perceptron learning algorithm implemented independently for the AND, OR
 ## 1. Repository Contents
 
 - **Code:** Google Colab notebook containing the complete implementation for both the banknote classification task and the logic gate experiments, along with outputs.
-- **Report:** A complete PDF file documenting the objective, theory, methodology, results, and analysis for both experiments.
+- **[Report](https://github.com/Kamlesh-DevOP/deep-learning-lab/blob/main/lab-1/Lab_1_with_additional_tasks.pdf):** A complete PDF file documenting the objective, theory, methodology, results, and analysis for both experiments. 
 
 ---
 
@@ -24,14 +24,12 @@ The notebook is organized to mirror the lab manual's task structure, plus additi
 5. **Task 4 — Perceptron (from scratch):** a single `Perceptron` class — weight/bias initialization, step activation, forward pass, and the classic perceptron learning rule.
 6. **Task 5 — Training:** per-epoch training log (misclassified count, weights, bias) plus training-dynamics plots.
 7. **Task 6 — Evaluation:** accuracy, precision, recall, F1-score, and a confusion matrix on the held-out test set.
-8. **Task 7 — Learning Rate Study:** the same model retrained at η = 0.001, 0.01, and 0.1, compared side by side.
+8. **Task 7 — Learning Rate Study:** the same model retrained at learning rate = 0.001, 0.01, and 0.1, compared side by side.
 9. **Optional — Decision Boundary:** a 2-feature (variance, skewness) perceptron with its separating hyperplane plotted directly.
 10. **Additional Task — Scikit-learn comparison:** a sanity check against `sklearn.linear_model.Perceptron` on the same split.
 11. **Additional Task — Step vs. Sigmoid:** a visual side-by-side of the two activation shapes.
 12. **Additional Task — XOR:** the perceptron trained on the XOR truth table, demonstrating non-convergence.
-13. **Additional Task — Normalization effect:** raw vs. standardized features compared under identical hyperparameters (with a documented caveat about shared RNG state across sequential runs — see the report's Discussion section).
-14. **Additional Task — Logic Gates (OR / AND / NOT / XOR):** weights and decision boundary plotted after **every individual weight update** (not just per epoch) for each gate, including a worked explanation of the periodic weight-cycling pattern that prevents XOR from converging.
-15. **Performance Summary Table:** a consolidated table of the final model's configuration and metrics.
+13. **Additional Task — Logic Gates (OR / AND / NOT / XOR):** weights and decision boundary plotted after **every individual weight update** (not just per epoch) for each gate.
 
 Every figure the notebook produces is saved automatically to `<name>.eps` at 600 dpi as it's generated — no manual export step is needed.
 

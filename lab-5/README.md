@@ -144,7 +144,7 @@ jupyter lab
 Open:
 
 ```text
-dl-lab-5.ipynb
+lab5.ipynb
 ```
 
 ### 3. Run the Notebook
@@ -190,7 +190,7 @@ CS3807-Deep-Learning-Lab/
 │
 ├── Lab5/
 │   │
-│   ├── dl-lab-5.ipynb
+│   ├── lab5.ipynb
 │   │   # Complete end-to-end PyTorch training notebook
 │   │
 │   ├── Lab5_Report.tex
